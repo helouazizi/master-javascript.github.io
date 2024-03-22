@@ -5,9 +5,10 @@
 }
 
 body {
-    background-color: #1e293b;
+    background: linear-gradient(black , rgb(1, 59, 103));
     margin: 0%;
     padding: 0%;
+    height: 100dvh;
 }
 
 .header {   /* this part just for styling thr header */
@@ -26,7 +27,12 @@ body {
     width: 30%;
     text-align: start;
     color: rgb(241, 93, 108);
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.logo a {
+    color: rgb(241, 93, 108);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .links {
@@ -39,6 +45,7 @@ body {
 
 .links a{
     color: #ffffffb1;
+    font-size: 20px;
 }
 
 .btn {
