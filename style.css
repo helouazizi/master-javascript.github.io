@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #1e293b;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {   /* this part just for styling thr header */
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    /*background-color: antiquewhite;*/
+}
+
+.logo {
+    /*background-color: aqua;*/
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    text-align: start;
+    color: rgb(241, 93, 108);
+    font-size: 20px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    color: rgba(240, 255, 255, 0.778);
+}
+
+.links a{
+    color: #ffffffb1;
+}
+
+.btn {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    background-color: blue;*/
+    display: none;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) { 
+    .links{
+        display: none;
+    }
+    .show {
+        position: absolute;
+        margin-top: 100px;
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        background-color: rgba(96, 85, 107, 0.479);
+        color: rgba(240, 248, 255, 0.775);
+    }
+
+    .show a {
+        display: block;
+        padding: 10px;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    .btn {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        padding-right: 5%;
+    } 
+
+    .btn button {
+        background-color: rgba(193, 105, 105, 0.675);
+        border: none;
+    }
+    
+ }
