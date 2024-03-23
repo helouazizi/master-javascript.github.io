@@ -198,5 +198,21 @@ body {
         background-color: rgba(193, 105, 105, 0.675);
         border: none;
     }
+
+    .description {
+        display: block;
+    }
+
+    .description h2 , p {
+        font-size: 20px;
+    }
+
+    .description  p{
+        font-size: 10px;
+    }
+
+    .animation {
+        display: none;
+    }
     
  }
