@@ -86,7 +86,7 @@ body {
 .information {
     text-align: center;
     padding-top: 100px;
-    color: rgba(240, 248, 255, 0.539);
+    color: rgba(240, 248, 255, 0.654);
 }
 
 .information h2 {
@@ -180,7 +180,7 @@ body {
         width: 100%;
         height: auto;
         text-align: center;
-        background-color: rgba(96, 85, 107, 0.479);
+        background-color: rgb(0, 0, 0);
         color: rgba(240, 248, 255, 0.775);
     }
 
@@ -208,7 +208,7 @@ body {
 
     .description {
         display: block;
-        background-color: #a6a6a6;
+        background-color: #a6a6a600;
         height: 300px;
     }
 
