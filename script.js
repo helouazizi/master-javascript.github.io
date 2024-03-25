@@ -24,24 +24,38 @@ let decrease = document.getElementById('decrease');
 let reset = document.getElementById('reset');
 let increase = document.getElementById('increase');
 
-console.log(counter,decrease,increase,reset);
 
-let i = 0;
-// lest create increament function 
-increase.addEventListener('click',function(){
-    counter.innerHTML =  i += 1;
+
+
+
+
+
+let count = 0;
+
+
+
+console.log(reset)
+
+function increasem(){
+    counter.textContent = count += 1 ;
     
-});
+    
+};
 
-// lest creste descrement function  
+function decreasem(){
+    counter.textContent = count -= 1 ;
+    
+    
+};
 
-decrease.addEventListener('click',function(){
-    counter.innerHTML = i -= 1 ;
-});
 
-// lets creste reset function 
 
-reset.addEventListener('click',function(){
-    counter.innerHTML = 0;
-})
+function resetm(){
+    counter.textContent = 0 ;
+    count = 0;
+   
+};
+
+
+
 
