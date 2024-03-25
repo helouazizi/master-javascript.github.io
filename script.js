@@ -52,7 +52,7 @@ function decreasem(){
 
 function resetm(){
     counter.textContent = 0 ;
-    count = 0;
+    count = 0; // this condition to reset the conter after reseting the program
    
 };
 
