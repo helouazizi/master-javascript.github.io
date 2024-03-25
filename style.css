@@ -173,6 +173,7 @@ button {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .project1-content {
   display: inline-block;
   width: 80%;
@@ -207,7 +208,11 @@ button {
     border-radius: 20px;
 }
 
-#btn-conter {
+#count::before {
+    content: 'cont :  ';
+}
+
+.btn-conter {
     padding: 8px;
     background-color: #020202;
     border-radius: 10px;
