@@ -24,37 +24,30 @@ let decrease = document.getElementById('decrease');
 let reset = document.getElementById('reset');
 let increase = document.getElementById('increase');
 
-
-
-
-
-
-
 let count = 0;
 
-
-
-console.log(reset)
-
+// this function for increament
 function increasem(){
     counter.textContent = count += 1 ;
     
     
 };
 
+// this function for decreament
 function decreasem(){
     counter.textContent = count -= 1 ;
     
     
 };
 
-
-
+// this function for reset 
 function resetm(){
     counter.textContent = 0 ;
     count = 0; // this condition to reset the conter after reseting the program
    
 };
+
+// ** off course there are many ways to do that but this the basic way ****//
 
 
 
