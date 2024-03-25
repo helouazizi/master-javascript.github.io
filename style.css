@@ -209,7 +209,9 @@ button {
 }
 
 #count::before {
-    content: 'cont :  ';
+    content: 'count :  ';
+    
+    margin: 5px;
 }
 
 .btn-conter {
