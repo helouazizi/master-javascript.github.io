@@ -33,11 +33,7 @@ let count = 0;
 // this function for increament
 increase.addEventListener('click',function(){
     counter.textContent = count += 1 ; 
-    if(count > 0){
-        counter.style.color = 'green';
-    }else {
-        counter.style.color = 'white';
-    };
+    
     
 });
     
@@ -45,11 +41,7 @@ increase.addEventListener('click',function(){
 // this function for decreament
 decrease.addEventListener('click',function(){
     counter.textContent = count -= 1 ;
-    if (count <0) {
-        counter.style.color = 'red';
-    } else {
-        counter.style.color = 'white';
-    }; 
+    
 });
 
 // this function for reset
@@ -57,9 +49,7 @@ decrease.addEventListener('click',function(){
 reset.addEventListener('click',function(){
     counter.textContent = 0 ;
     count = 0;// this condition to reset the conter after reseting the program
-    if(count != 0 ){
-        counter.style.color = 'white';
-    }  
+     
 });
 
     
