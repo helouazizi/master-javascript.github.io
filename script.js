@@ -19,33 +19,52 @@ shownBtn.addEventListener('click',function(){
 // ======================= this part for counter project ===============//
 
 
-let counter = document.getElementById('count');
-let decrease = document.getElementById('decrease');
-let reset = document.getElementById('reset');
-let increase = document.getElementById('increase');
+let counter = document.querySelector('.count');
+let decrease = document.querySelector('.decrease');
+let reset = document.querySelector('.reset');
+let increase = document.querySelector('.increase');
+
+console.log(counter,decrease,reset,increase)
 
 let count = 0;
 
+
+
 // this function for increament
-function increasem(){
-    counter.textContent = count += 1 ;
+increase.addEventListener('click',function(){
+    counter.textContent = count += 1 ; 
+    if(count > 0){
+        counter.style.color = 'green';
+    }else {
+        counter.style.color = 'white';
+    };
     
+});
     
-};
 
 // this function for decreament
-function decreasem(){
+decrease.addEventListener('click',function(){
     counter.textContent = count -= 1 ;
-    
-    
-};
+    if (count <0) {
+        counter.style.color = 'red';
+    } else {
+        counter.style.color = 'white';
+    }; 
+});
 
-// this function for reset 
-function resetm(){
+// this function for reset
+
+reset.addEventListener('click',function(){
     counter.textContent = 0 ;
-    count = 0; // this condition to reset the conter after reseting the program
-   
-};
+    count = 0;// this condition to reset the conter after reseting the program
+    if(count != 0 ){
+        counter.style.color = 'white';
+    }  
+});
+
+    
+
+
 
 // ** off course there are many ways to do that but this the basic way ****//
 
