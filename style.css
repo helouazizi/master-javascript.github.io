@@ -278,6 +278,11 @@ button {
     border-radius: 5px;
 }
 
+.background::before {
+    content: 'background-color : ';
+    margin: 2px;
+}
+
 .project2-content button {
     background-color: black;
     border: none;

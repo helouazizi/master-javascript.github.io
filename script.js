@@ -55,7 +55,26 @@ reset.addEventListener('click',function(){
 
 
 
+// ====================== this part for color-flliper project ==================//
 
+let project2content = document.querySelector('.project2-content');
+let background = document.querySelector('.background');
+let changecolor = document.querySelector('.change-color');
+
+let colors = ['red','white','orange','green','gray'];
+
+
+changecolor.addEventListener('click',function(){
+    // randomly chose color betwen 0-3
+    const randomcolor = getrandomnumber();
+    project2content.style.background = colors[randomcolor]; // code change the body color by accece the array colors 
+    background.textContent = colors[randomcolor]; // code change the color value in parallele with event 
+    console.log(randomcolor);
+});
+
+function getrandomnumber(){
+    return Math.floor(Math.random() * colors.length);
+}
 
 
 
