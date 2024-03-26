@@ -1,5 +1,5 @@
 
-// this part in coding just for the haeder 
+// ================ this part in coding just for the haeder ==================//
 
 let shownBtn = document.getElementById('shown-btn');
 let links = document.querySelector('.links');
@@ -9,9 +9,7 @@ let hidenBtn = document.createElement('button');
 
 shownBtn.addEventListener('click',function(){
     links.classList.toggle('show');
-    /*this.onclick = function(){
-        links.classList.add('hide')
-    }*/
+    
     
 }) ;
 
@@ -51,12 +49,13 @@ reset.addEventListener('click',function(){
     count = 0;// this condition to reset the conter after reseting the program
      
 });
+// **** off course there are many ways to do that but this the basic way ****//
 
     
 
 
 
-// ** off course there are many ways to do that but this the basic way ****//
+
 
 
 

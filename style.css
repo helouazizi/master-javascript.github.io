@@ -18,7 +18,9 @@ button {
     cursor: pointer;
 }
 
-.header {   /* this part just for styling thr header */
+ /* ================= this part just for styling thr header ================== */
+
+.header {  
     display: flex;
     align-content: center;
     width: 100%;
@@ -68,7 +70,7 @@ button {
 
 
 
-/* this part for styling the containeer */
+/* ==================== this part for styling the containeer ================  */
 
 
 .description {
@@ -122,6 +124,12 @@ button {
   
 }
 
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
 
 
 .animation {
@@ -137,23 +145,18 @@ button {
   height: 300px;
 }
 
-/*.container {
-    /*background-color: blanchedalmond;
-    width: 100%;
-    display: block;
-    text-align: center;
-}*/
+
 
 .layout {
-        width: 100%;
-        height: 100%;
-      
-        display: flex;
-        gap: 20px;
-        flex-wrap: wrap;
-      
-        justify-content: center;
-        align-items: center;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
@@ -241,41 +244,9 @@ button {
     background-color: #8d2c2c;
     transition: 1s;
 }
-/*
-#count {
-    background-color: #424242;
-    height: 100px;
-    width: 80%;
-    text-align: center;
-    margin: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-}
 
-#count::before {
-    content: 'count :  ';
-    
-    margin: 5px;
-}
 
-.btn-counter {
-    padding: 8px;
-    background-color: #020202;
-    border-radius: 10px;
-    border: none;
-    color: #fff;
-    
-}
 
-*/
-
-@keyframes textclip {
-    to {
-      background-position: 200% center;
-    }
-  }
 
 
 
