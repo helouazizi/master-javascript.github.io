@@ -183,9 +183,9 @@ button {
 
 
 
-/*================= start styling project cards ============*/
+/*================= start styling counter project ============*/
 
-.project-title {
+.project1-title {
   
   text-transform: uppercase;
   color: #ff1361;
@@ -245,7 +245,63 @@ button {
     transition: 1s;
 }
 
+/* ================= start styling color-flliper project =================== */
 
+.project2-title {
+  
+    text-transform: uppercase;
+    color: #ff1361;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+.project2-content {
+  
+    width: 80%;
+    height: 250PX;
+    text-align: center;
+    margin: 10px 10%;
+    padding: 40px 0%;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+.background {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin:  10%;
+    padding: 40px 0px;
+    height: 100px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.project2-content button {
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    padding: 7px;
+    color: aliceblue;
+}
+
+
+.color-flliper-source-code {
+    width: 50%;
+    background-color: #ff1361;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    position: relative;
+    left: -15%;
+  }
+  
+.color-flliper-source-code:hover {
+    background-color: #8d2c2c;
+    transition: 1s;
+  }
 
 
 
