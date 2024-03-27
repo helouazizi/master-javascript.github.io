@@ -333,6 +333,8 @@ button {
 .project3-content img {
     width: 80px;
     height: 80px;
+    border-radius: 100%;
+    object-fit: cover;
 }
 
 .project3-content h3 {

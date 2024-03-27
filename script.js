@@ -94,29 +94,58 @@ let next_btn1 =document.querySelector('.goright');
 let cards = [
     {
         id:1,
-        img :'',
+        img :'photos/nassim.jpg',
         fullname: 'nassim',
-        job: 'designer',
-        job_description: 'nassim is my brother'
+        job: 'agent',
+        job_description: 'nassim is my brother nassim is my brother nassim is my brother'
     },
     {
         id:2,
-        img :'',
-        fullname: 'sammir',
+        img :'photos/lucia.jpg',
+        fullname: 'lucia',
         job: 'designer',
-        job_description: 'sammir is my brother'
+        job_description: 'lucia is a good designer that can design for you a friendly designs'
     },
     {
         id:3,
-        img :'',
-        fullname: 'adnan',
+        img :'photos/samir.jpg',
+        fullname: 'samir',
         job: 'student',
-        job_description: 'adnan is my brother'
+        job_description: 'samir is my brother samir is my brother samir is my brother'
     }
 
 ]
 
-
+let curentitem = -1;
 next_btn1.addEventListener('click',function(){
-    full_name1.innerHTML = cards[0].fullname
-})
+    if(curentitem < cards.length -1  ){
+        curentitem ++ ;
+        showperson()
+        console.log(curentitem)
+        //curentitem ++ ;
+        
+    }    
+});
+
+previous_btn1.addEventListener('click',function(){
+    if(curentitem > 0  ){
+        curentitem -- ;
+        showperson();
+        //curentitem = curentitem - 1;
+        console.log(curentitem)
+        console.log('previous');
+    }
+        
+});
+
+
+
+function showperson( ){
+
+    const item = cards[curentitem]
+    profile1.src = item.img;
+    full_name1.innerHTML = item.fullname
+    job1.innerHTML = item.job
+    job_description1.innerHTML = item.job_description
+    full_name1.innerHTML = item.fullname
+}
