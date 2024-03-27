@@ -201,7 +201,7 @@ button {
   text-align: center;
   margin: 10px 10%;
   padding: 40px 0%;
-  background-color: #fff;
+  background-color:#ffffffd6;
   border-radius: 10px;
 }
 
@@ -263,7 +263,7 @@ button {
     text-align: center;
     margin: 10px 10%;
     padding: 40px 0%;
-    background-color: #fff;
+    background-color: #ffffffd6;
     border-radius: 10px;
   }
 
@@ -292,7 +292,7 @@ button {
 }
 
 
-.color-flliper-source-code {
+.project2-source-code {
     width: 50%;
     background-color: #ff1361;
     padding: 15px;
@@ -303,10 +303,86 @@ button {
     left: -15%;
   }
   
-.color-flliper-source-code:hover {
+.project2-source-code:hover {
     background-color: #8d2c2c;
     transition: 1s;
   }
+
+/* ================= start styling reviews card project =================== */
+
+.project3-title {
+  
+    text-transform: uppercase;
+    color: #ff1362e0;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.project3-content {
+  
+    width: 80%;
+    height: 250PX;
+    text-align: center;
+    margin: 10px 10%;
+    padding: 20px 0%;
+    background-color: #ffffffd6;
+    border-radius: 10px;
+    color: cornflowerblue;
+  }
+
+.project3-content img {
+    width: 80px;
+    height: 80px;
+}
+
+.project3-content h3 {
+    color: #8d2c2c;
+    text-transform: uppercase;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+.project3-content h4 {
+    text-transform: uppercase;
+}
+
+.project3-content p {
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(0, 0, 0, 0.858);
+    margin: 5px;
+    padding: 0px 10px;
+}
+
+.project3-content button {
+    border: none;
+    background: none;
+    color: #2c5aff;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+.project3-source-code {
+    width: 50%;
+    background-color: #ff1361;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    position: relative;
+    left: -15%;
+  }
+  
+.project3-source-code:hover {
+    background-color: #8d2c2c;
+    transition: 1s;
+  }
+
+
 
 
 

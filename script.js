@@ -66,17 +66,17 @@ let colorss = [1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F']
 
 
 changecolor.addEventListener('click',function(){
-    // randomly chose color betwen 0-3
+    
     let dias = '#';
     for(let i = 0; i < 6; i++){
         dias += colorss[getrandomnumber()]
     }
-    //const randomcolor = getrandomnumber();
-    project2content.style.background = dias; /// code change the body color by accece the array colors 
-    background.textContent = dias ; // code change the color value in parallele with event 
-    //console.log(randomcolor);
+    project2content.style.background = dias; 
+    background.textContent = dias ;  
+    
 });
 
+// randomly chose color betwen 0-6
 function getrandomnumber(){
     return Math.floor(Math.random() * colorss.length);
 }
