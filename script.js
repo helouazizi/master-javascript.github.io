@@ -82,5 +82,41 @@ function getrandomnumber(){
 }
 
 
+// ===================== this part for review card ===================//
+
+let profile1 =document.querySelector('.profile');
+let full_name1 =document.querySelector('.full-name');
+let job1 =document.querySelector('.job');
+let job_description1 =document.querySelector('.job-description');
+let previous_btn1 =document.querySelector('.goleft');
+let next_btn1 =document.querySelector('.goright');
+
+let cards = [
+    {
+        id:1,
+        img :'',
+        fullname: 'nassim',
+        job: 'designer',
+        job_description: 'nassim is my brother'
+    },
+    {
+        id:2,
+        img :'',
+        fullname: 'sammir',
+        job: 'designer',
+        job_description: 'sammir is my brother'
+    },
+    {
+        id:3,
+        img :'',
+        fullname: 'adnan',
+        job: 'student',
+        job_description: 'adnan is my brother'
+    }
+
+]
 
 
+next_btn1.addEventListener('click',function(){
+    full_name1.innerHTML = cards[0].fullname
+})
