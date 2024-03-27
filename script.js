@@ -22,7 +22,7 @@ let decrease = document.querySelector('.decrease');
 let reset = document.querySelector('.reset');
 let increase = document.querySelector('.increase');
 
-console.log(counter,decrease,reset,increase)
+
 
 let count = 0;
 
@@ -93,6 +93,14 @@ let next_btn1 =document.querySelector('.goright');
 
 let cards = [
     {
+        id:0,
+        img:'photos/bessto.png',
+        fullname:'hassan el ouazizi',
+        job:'developer',
+        job_description:'hassan is a greattest web developer in the worldas you see he is so cleaver as fox in the forestas a eagl in the sky',
+    },
+    
+    {
         id:1,
         img :'photos/nassim.jpg',
         fullname: 'nassim',
@@ -117,6 +125,11 @@ let cards = [
 ]
 
 let curentitem = -1;
+
+window.addEventListener('DOMContentLoaded',function(){
+    showperson();
+})
+
 next_btn1.addEventListener('click',function(){
     if(curentitem < cards.length -1  ){
         curentitem ++ ;
