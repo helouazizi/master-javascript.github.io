@@ -62,18 +62,23 @@ let background = document.querySelector('.background');
 let changecolor = document.querySelector('.change-color');
 
 let colors = ['red','white','orange','green','gray'];
+let colorss = [1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F']
 
 
 changecolor.addEventListener('click',function(){
     // randomly chose color betwen 0-3
-    const randomcolor = getrandomnumber();
-    project2content.style.background = colors[randomcolor]; // code change the body color by accece the array colors 
-    background.textContent = colors[randomcolor]; // code change the color value in parallele with event 
-    console.log(randomcolor);
+    let dias = '#';
+    for(let i = 0; i < 6; i++){
+        dias += colorss[getrandomnumber()]
+    }
+    //const randomcolor = getrandomnumber();
+    project2content.style.background = dias; /// code change the body color by accece the array colors 
+    background.textContent = dias ; // code change the color value in parallele with event 
+    //console.log(randomcolor);
 });
 
 function getrandomnumber(){
-    return Math.floor(Math.random() * colors.length);
+    return Math.floor(Math.random() * colorss.length);
 }
 
 
