@@ -334,6 +334,7 @@ button {
     width: 80px;
     height: 80px;
     border-radius: 100%;
+    border: 5px solid #ff1362e0;
     object-fit: cover;
 }
 
