@@ -174,3 +174,40 @@ function showperson() {
 
 // ====================== this part for bmi project ==================//
 
+
+var calcule;
+document.querySelector('.calcul-btn').addEventListener('click', function () {
+
+    // this step to get the user wheight from the input  
+    var wheight = document.querySelector('.wheight').value;
+    // this step to get the user height from the input
+    var height = document.querySelector('.height').value;
+    // this the final result the use in if statment 
+    var result = wheight / height * height;
+
+    var message = document.querySelector('.message');
+
+    console.log(wheight, height)
+
+    if (result > 40) {
+        message.innerHTML = "you are sooo fat";
+    }
+    else if (result < 40 && result > 35) {
+        message.innerHTML = " a little bit fat";
+    }
+    else if (result < 34.9 && result > 30) {
+        message.innerHTML = " fist degree fat ";
+    }
+    else if (result < 29.9 && result > 25) {
+        message.innerHTML = " extra wheight";
+    }
+    else if (result < 24.9 && result > 18) {
+        message.innerHTML = " your wheight is perfect";
+    } else if (result < 18) {
+        message.innerHTML = " you are soo skinny";
+    } else {
+        message.innerHTML = " incorect information";
+    }
+
+
+})
