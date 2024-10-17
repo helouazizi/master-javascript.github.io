@@ -1,6 +1,6 @@
 # Master JavaScripts
 
-Welcome to **Master JavaScripts**! This project is a collection of small tools and programs designed to help you learn JavaScript through practical examples and exercises, utilizing HTML and CSS.
+Welcome to **Master JavaScripts**! This project is a collection of small tools and programs designed to help you learn JavaScript through practical examples and exercises, utilizing HTML and CSS with source code .
 
 ## Features
 
